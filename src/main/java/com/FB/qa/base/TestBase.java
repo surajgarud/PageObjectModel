@@ -34,7 +34,7 @@ public class TestBase {
 		if(Browser.equals("chrome"));
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\suraj\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
-		
+
 		//Launch url
 		driver.get(prop.getProperty("url"));
 		driver.manage().window().maximize();

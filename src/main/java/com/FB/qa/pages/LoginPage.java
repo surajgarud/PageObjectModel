@@ -42,4 +42,11 @@ public class LoginPage extends TestBase{
 		 // after clicking login btn it will land on Homepage so giving return type is HomePage in pages folder
 		 return new HomePage();
 	 }
+	 
+	 public void multipleUserLogin(String un, String pw) {
+		 email.sendKeys(un);
+		 passContainer.sendKeys(pw);
+		 login.click();
+		 
+	 }
 }
