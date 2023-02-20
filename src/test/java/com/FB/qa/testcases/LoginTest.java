@@ -5,6 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.FB.qa.base.TestBase;
@@ -12,6 +13,7 @@ import com.FB.qa.pages.LoginPage;
 import com.FB.qa.utility.DataDrivenclass;
 
 //extends use to set relation between TestBase and all pages bcz TestBase is Parent class
+//@Listeners(comFBListener.MyListener.class)
 public class LoginTest extends TestBase{
 	public LoginPage loginpg;
 	public DataDrivenclass utility;

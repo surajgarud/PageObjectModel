@@ -1,5 +1,6 @@
 package com.FB.qa.utility;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -8,10 +9,20 @@ import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.io.FileHandler;
 
 import com.FB.qa.base.TestBase;
 
 public class DataDrivenclass extends TestBase{
+	
+	public void screenshot(String testName) throws IOException {
+		TakesScreenshot ts = (TakesScreenshot)driver;      
+		File file = ts.getScreenshotAs(OutputType.FILE);
+		File Afile = new File("C:\\Users\\suraj\\eclipse-workspace\\PageObjModel\\FailTest_Screenshot\\"+testName+".png");
+		FileHandler.copy(file,Afile);
+	}
 	public static String ExcelPath = "C:\\Users\\suraj\\eclipse-workspace\\PageObjModel\\src\\main\\java\\com\\FB\\qa\\TestData\\Book1.xlsx";
 	static Workbook book;
 	static org.apache.poi.ss.usermodel.Sheet sheet;
