@@ -1,119 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-20T12:50:12 IST" name="Suite" finished-at="2023-02-20T12:51:51 IST" duration-ms="98937">
+  <suite started-at="2023-02-26T12:04:04 IST" name="Default suite" finished-at="2023-02-26T12:04:15 IST" duration-ms="10294">
     <groups>
     </groups>
-    <test started-at="2023-02-20T12:50:12 IST" name="Test" finished-at="2023-02-20T12:51:51 IST" duration-ms="98937">
-      <class name="com.FB.qa.testcases.Test_Fb_Add_Story">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.FB.qa.testcases.Test_Fb_Add_Story@3a3e78f]" started-at="2023-02-20T12:50:48 IST" name="setUp" finished-at="2023-02-20T12:50:51 IST" duration-ms="2857" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="FB_Addtest()[pri:0, instance:com.FB.qa.testcases.Test_Fb_Add_Story@3a3e78f]" started-at="2023-02-20T12:50:51 IST" name="FB_Addtest" finished-at="2023-02-20T12:51:08 IST" duration-ms="16940" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FB_Addtest -->
-      </class> <!-- com.FB.qa.testcases.Test_Fb_Add_Story -->
+    <test started-at="2023-02-26T12:04:04 IST" name="Default test" finished-at="2023-02-26T12:04:15 IST" duration-ms="10294">
       <class name="com.FB.qa.testcases.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.FB.qa.testcases.LoginTest@614df0a4]" started-at="2023-02-20T12:50:12 IST" name="setUp" finished-at="2023-02-20T12:50:18 IST" duration-ms="6362" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.FB.qa.testcases.LoginTest@614df0a4]" started-at="2023-02-26T12:04:04 IST" name="setUp" finished-at="2023-02-26T12:04:10 IST" duration-ms="5498" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="URL()[pri:1, instance:com.FB.qa.testcases.LoginTest@614df0a4]" started-at="2023-02-20T12:50:19 IST" name="URL" finished-at="2023-02-20T12:50:19 IST" duration-ms="604" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- URL -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.FB.qa.testcases.LoginTest@614df0a4]" started-at="2023-02-20T12:50:19 IST" name="tearDown" finished-at="2023-02-20T12:50:24 IST" duration-ms="4340" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.FB.qa.testcases.LoginTest@614df0a4]" started-at="2023-02-20T12:50:24 IST" name="setUp" finished-at="2023-02-20T12:50:27 IST" duration-ms="2993" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Logintest()[pri:2, instance:com.FB.qa.testcases.LoginTest@614df0a4]" started-at="2023-02-20T12:50:27 IST" name="Logintest" finished-at="2023-02-20T12:50:27 IST" duration-ms="399" status="PASS">
+        <test-method signature="Logintest()[pri:2, instance:com.FB.qa.testcases.LoginTest@614df0a4]" started-at="2023-02-26T12:04:10 IST" name="Logintest" finished-at="2023-02-26T12:04:10 IST" duration-ms="343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logintest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.FB.qa.testcases.LoginTest@614df0a4]" started-at="2023-02-20T12:50:27 IST" name="tearDown" finished-at="2023-02-20T12:50:31 IST" duration-ms="4243" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.FB.qa.testcases.LoginTest@614df0a4]" started-at="2023-02-20T12:50:33 IST" name="setUp" finished-at="2023-02-20T12:50:35 IST" duration-ms="2654" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="MultiUserLogin(java.lang.String,java.lang.String)[pri:3, instance:com.FB.qa.testcases.LoginTest@614df0a4]" started-at="2023-02-20T12:50:35 IST" name="MultiUserLogin" data-provider="getLoginDetails" finished-at="2023-02-20T12:50:36 IST" duration-ms="380" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[surajgarud95@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Suraj@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MultiUserLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.FB.qa.testcases.LoginTest@614df0a4]" started-at="2023-02-20T12:50:36 IST" name="tearDown" finished-at="2023-02-20T12:50:40 IST" duration-ms="4211" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.FB.qa.testcases.LoginTest@614df0a4]" started-at="2023-02-20T12:50:40 IST" name="setUp" finished-at="2023-02-20T12:50:43 IST" duration-ms="2950" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="MultiUserLogin(java.lang.String,java.lang.String)[pri:3, instance:com.FB.qa.testcases.LoginTest@614df0a4]" started-at="2023-02-20T12:50:43 IST" name="MultiUserLogin" data-provider="getLoginDetails" finished-at="2023-02-20T12:50:43 IST" duration-ms="367" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[surajgarud49@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Suraj@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MultiUserLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.FB.qa.testcases.LoginTest@614df0a4]" started-at="2023-02-20T12:50:44 IST" name="tearDown" finished-at="2023-02-20T12:50:48 IST" duration-ms="4260" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.FB.qa.testcases.LoginTest@614df0a4]" started-at="2023-02-26T12:04:10 IST" name="tearDown" finished-at="2023-02-26T12:04:15 IST" duration-ms="4330" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.FB.qa.testcases.LoginTest -->
-      <class name="com.FB.qa.testcases.SignUpTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.FB.qa.testcases.SignUpTest@301ec38b]" started-at="2023-02-20T12:51:08 IST" name="setUp" finished-at="2023-02-20T12:51:20 IST" duration-ms="11936" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="SignUptest()[pri:0, instance:com.FB.qa.testcases.SignUpTest@301ec38b]" started-at="2023-02-20T12:51:20 IST" name="SignUptest" finished-at="2023-02-20T12:51:27 IST" duration-ms="7628" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignUptest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.FB.qa.testcases.SignUpTest@301ec38b]" started-at="2023-02-20T12:51:27 IST" name="tearDown" finished-at="2023-02-20T12:51:32 IST" duration-ms="4539" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.FB.qa.testcases.SignUpTest -->
-      <class name="com.FB.qa.testcases.HomePageWatch">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.FB.qa.testcases.HomePageWatch@17a1e4ca]" started-at="2023-02-20T12:51:32 IST" name="setUp" finished-at="2023-02-20T12:51:38 IST" duration-ms="5831" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="HomePagetest()[pri:0, instance:com.FB.qa.testcases.HomePageWatch@17a1e4ca]" started-at="2023-02-20T12:51:38 IST" name="HomePagetest" finished-at="2023-02-20T12:51:51 IST" duration-ms="13191" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HomePagetest -->
-      </class> <!-- com.FB.qa.testcases.HomePageWatch -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
